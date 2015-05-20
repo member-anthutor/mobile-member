@@ -1,0 +1,3 @@
+rootProject.name = 'mobile-member'
+apply from : 'settings-mobile-member.gradle'
+

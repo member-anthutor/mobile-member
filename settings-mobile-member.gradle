@@ -1,0 +1,15 @@
+include ':tops-mobile-member:tops-mobile-member-front'
+
+
+include ':tops-mobile-member:tops-mobile-member-authorization'
+
+
+include ':tops-mobile-member:tops-mobile-member-common'
+
+
+
+
+include ':tops-mobile-member:tops-member-thrift-client'
+include ':tops-mobile-member:tops-member-thrift-server'
+include ':tops-mobile-member:tops-mobile-member-dao'
+include ':tops-mobile-member:tops-mobile-member-service'
