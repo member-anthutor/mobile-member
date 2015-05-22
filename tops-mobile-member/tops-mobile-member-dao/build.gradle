@@ -1,0 +1,8 @@
+group = 'com.member'
+
+dependencies { 
+	compile project(':tops-mobile-member:tops-mobile-member-common')
+    compile libraries.mongo_java_driver
+	compile libraries.c3p0
+	compile libraries.mongon_morphia
+}

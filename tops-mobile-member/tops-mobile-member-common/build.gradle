@@ -1,0 +1,9 @@
+group = 'com.travelzen'
+version = "${versions.tops_common}"
+
+
+dependencies { 
+	
+	compile libraries.joda_time
+
+}
