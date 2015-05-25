@@ -5,5 +5,7 @@ version = "${versions.tops_common}"
 dependencies { 
 	
 	compile libraries.joda_time
-
+	compile libraries.slf4j
+	compile libraries.slf4j_api
+	compile libraries.logback
 }
